@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are You Sure?</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Fullscreen Background */
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            color: white;
+            font-family: Georgia, serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .message {
+            max-width: 90%;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 40px;
+            border-radius: 8px;
+        }
+        /* Button Styling */
+        .button {
+            margin-top: 20px;
+            background-color: #ff7f7f;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #ff4f4f;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h1>BAWAL MAG NO!</h1>
+        <p>Kung na-send ko na to, nabili ko na ticket hehe! BAWAL MAG NO, pls! Pag nag-no ka, dadalhin kita sa Maskipaps sa Baguio, eme! Hahaha! Sige ka, sunduin kita dyan! Balik ka dun, press mo Yes :&gt;</p>
+        <button class="button" onclick="window.location.href='index.html'">Go Back and Press Yes</button>
+    </div>
+</body>
+</html>
